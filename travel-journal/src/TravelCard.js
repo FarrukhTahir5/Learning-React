@@ -1,5 +1,5 @@
 import React from 'react';
-import LocationOn from '@mui/icons-material/LocationOn'
+import LocationOn from '@mui/icons-material/LocationOn';
 export default function TravelCard(props){
     return(
         <div className='Card'>
