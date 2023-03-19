@@ -1,0 +1,66 @@
+.App{
+  
+  font-size: 1.65vw;
+  font-family: 'Inter', sans-serif;
+}
+.image>img{
+  object-fit: cover;
+  object-position: 50% 0;
+
+  height:25vw;
+  width:17vw;
+  border-radius: 1vw;
+  margin-right: 3vw;
+}
+.Card{
+  display: flex;
+  margin: 6vw;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 3vw;
+}
+.locationDetails{
+  margin-top: 4vw;
+  display: flex;
+  align-items: center;
+}
+.location{
+  letter-spacing: 0.2vw;
+  font-weight: 300;
+  margin-right: 1vw;
+}
+.LocationOn{
+  color: red;
+}
+.title{
+  font-weight: bold;
+  font-size: 3.32vw;
+  margin-top: 1vw;
+}
+.Date{
+  font-size: 1.65vw;
+  margin-top: 2vw;
+  font-weight: 700;
+  margin-bottom: 1vw;
+}
+.googlemaps{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+.Header{
+  color: white;
+  font-size: 1.65vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 8vw;
+  background-color: #f55a5a;
+}
+.Header>img{
+  margin-right: 0.5vw;
+  height: 2.6vw;
+  width: 2.6vw;
+}
